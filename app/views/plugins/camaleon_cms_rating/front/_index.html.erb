@@ -1,11 +1,12 @@
 <div>
   <% ratings = post.ratings %>
   <% count = ratings.count %>
+  <% count_translation = count == 1 ? 'one' : 'more' %>
   <% average = ratings.average(:score).to_f.round(2) %>
 
   <div class="read-only-rating" data-score="<%== average %>"></div>
 
-  <p><%= I18n.t('views.plugins.camaleon_cms_rating.front._index.ratings', average: average, count: count, default: "#{average} average based on #{count} ratings.") %></p>
+  <p><%= I18n.t("views.plugins.camaleon_cms_rating.front._index.ratings.#{count_translation}", average: average, count: count, default: "#{average} average based on #{count} ratings.") %></p>
 
   <% unless defined?(hide_detail)%>
     <% groups = ratings.order(:score).group(:score).count %>

@@ -13,6 +13,8 @@ pt-BR:
             save: 'Salvar'
         front:
           _index:
-            ratings: "%{average} média de %{count} avaliações."
+            ratings:
+              one: "%{average} média de %{count} avaliação."
+              more: "%{average} média de %{count} avaliações."
             star: 'Estrela'
 
