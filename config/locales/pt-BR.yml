@@ -1,0 +1,18 @@
+pt-BR:
+  views:
+    plugins:
+      camaleon_cms_rating:
+        admin:
+          index:
+            title: 'Título'
+            paragraph: 'Plugin pronto para uso no painel do administrador.'
+          settings:
+            title: 'Configurações do plugin'
+            option: 'Configuração de Opção'
+            meta: 'Configuração de Meta'
+            save: 'Salvar'
+        front:
+          _index:
+            ratings: "%{average} média de %{count} avaliações."
+            star: 'Estrela'
+

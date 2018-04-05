@@ -1,6 +1,6 @@
 {
-  "title": "Camaleon CMS Rating",
-  "descr": "A star rating plugin for the Camaleon CMS.",
+  "title": "Avaliação por estrelas",
+  "descr": "Plugin para avalaiação de posts por estrelas",
   "key": "camaleon_cms_rating", // must be the name of the folder of your plugin, sample: app/views/plugins/<my_plugin> ==> 'my_plugin'
   "helpers": [
     "Plugins::CamaleonCmsRating::MainHelper"
