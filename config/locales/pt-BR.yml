@@ -17,15 +17,6 @@ pt-BR:
               one: "%{average} média de %{count} avaliação."
               more: "%{average} média de %{count} avaliações."
             star: 'Estrela'
-  jquery:
-    hints:
-      cancel_hint: 'Cancelar esta avaliação.'
-      bad: 'Não gostei'
-      regular: 'Regular'
-      good: 'Bom'
-      very_good: 'Muito bom'
-      excellent: 'Excelente'
-      not_rated_yet: 'Não avaliado ainda.'
 
 
 
