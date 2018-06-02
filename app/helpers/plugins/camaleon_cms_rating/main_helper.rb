@@ -24,6 +24,6 @@ module Plugins::CamaleonCmsRating::MainHelper
   # args: {plugin (Hash), links (Array)}
   # permit to add unlimmited of links...
   def camaleon_cms_rating_on_plugin_options(args)
-    args[:links] << link_to('Settings', admin_plugins_camaleon_cms_rating_settings_path)
+    #args[:links] << link_to('Settings', admin_plugins_camaleon_cms_rating_settings_path)
   end
 end
